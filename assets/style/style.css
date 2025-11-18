@@ -1,0 +1,51 @@
+.header-nav{
+    background-color: #f4cfc966!important;
+    box-shadow: 0 0 8px #031c32ac;
+}
+.block{
+    background-color: #f4cfc966;
+    border: 1px solid #031c32;
+    box-shadow: 0 0 8px #031c32ac;
+}
+.required{
+    color: #b4355e;
+}
+.call-me{
+    color: #f4cfc9;
+    background-color: #031c32;
+}
+.hovered{
+    transition: transform 0.3s ease;
+}
+.hovered:hover{
+    background-color: #b4355e;
+    color: #f4cfc9;
+    transform: scale(1.1);
+}
+.hovered-1{
+    transition: transform 0.3s ease;
+    color: #031c32;
+}
+.hovered-1:hover{
+    color: #b4355e;
+    transform: scale(1.1);
+}
+.your-number{
+    color: #031c32;
+}
+.input-form:focus{
+    outline: none !important;
+    border: 1px solid #031c32a0 !important;
+    box-shadow: 0 0 8px #031c32ac !important;
+    color: #031c32!important;
+}
+.input-form:valid{
+    border: 1px solid #031c32a0 !important;
+    box-shadow: 0 0 8px #031c32ac !important;
+    color: #031c32!important;
+}
+.input-form:invalid{
+    border: 1px solid #b4355ea0 !important;
+    box-shadow: 0 0 8px #b4355eac !important;
+    color: #b4355e!important;
+}
